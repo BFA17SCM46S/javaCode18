@@ -23,6 +23,7 @@ public class tyrDemo2 {
 	public static void main(String[] args) {
 		tyrDemo2 ty = new tyrDemo2();
 		ty.sort();
+		System.out.println();
 		
 	}
 }
