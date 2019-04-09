@@ -45,6 +45,7 @@ public class Ecapsulation {
 		ee.setAge(5);
 		System.out.println(ee.getAge());
 		
+		
 
 	}
 
