@@ -17,9 +17,6 @@ public class StringComp {
 		   System.out.println(s1.compareTo(s5));
 		   
 		   
-		   
-		   
-		   
 	}
 
 }
