@@ -9,8 +9,19 @@ class Student2{
 		rollno=r;  
 		name=n;  
 	}  
-	void displayInformation(){System.out.println(rollno+" "+name);}  
+	void displayInformation(){
+		int c = add(10, 20);
+		System.out.println(rollno+" "+name);
+		
+	}  
 	
+	public int add(int a, int b) {
+		System.out.println("sum is "+a+b);
+		return a+b;
+		
+	}
+	
+
 	
 	
 	
