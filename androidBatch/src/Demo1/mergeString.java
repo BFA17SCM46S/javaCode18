@@ -21,6 +21,9 @@ public class mergeString {
 			resultString.append(s2.substring(j));
 		}
 		
+		
+		
+		
 //		for ( i = 0;  i< s1.length(); i++) {
 //			for ( j = 0; j < s2.length(); j++) {
 //				resultString.append(s1.charAt(i));

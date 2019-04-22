@@ -1,6 +1,8 @@
 package Demo2;
 
+import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
 
+import Demo1.practice91;
 
 public class classpractice {
 	
@@ -48,13 +50,46 @@ public class classpractice {
        
         
 	}
-	public static void isY() {}
-	public static void isSpace() {}
+	public static String isY(String string) {
+		return string.replace("y", " ");
+		
+		
+	}
+	public static String isSpace(String string) {
+		return string.replace(" ", "y");
+		
+	}
 
 	private static void isSpecialChar(char c) {
 		
 	}
+	
+//	private static void reversed(int arr[],int start, int end) {
+//		
+//		for (int i = 0; i < arr.length; i++) {
+//			while (start<end) {
+//				
+//			
+//			int temp = arr[end];
+//			arr[end] = arr[start];
+//			arr[start] = temp;
+//			start++;
+//			end--;
+//		
+//			}	
+//		}
+//		System.out.println("result"+ arr);
+//}
+	
+	
+	public static String reversNumber(String string) {
+		
+		
+		
+	}
 
+	
+	
 	private static void isConsonant(char c) {
 		String s = String.valueOf(c);
 		if (s.matches("[a-z&&[^aeiou]]")) {
