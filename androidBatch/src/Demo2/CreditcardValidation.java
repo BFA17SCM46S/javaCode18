@@ -37,9 +37,16 @@ public class CreditcardValidation {
 	
 	
 	
+	
 	public static void main(String[] args) {
 		
 		String imei = "012850003580200123409";
+//		String imei2 = "2983478923794231234124";
+//		String imei3 = "-01982901928398192414";
+//		String imei4 = "987980012340980989089";
+//		validateCreditCardNumber(imei);
+//		validateCreditCardNumber(imei2);
+//		validateCreditCardNumber(imei3);
 		validateCreditCardNumber(imei);
 		
 	}
