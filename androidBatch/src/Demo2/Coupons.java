@@ -1,6 +1,7 @@
 package Demo2;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 
@@ -10,35 +11,48 @@ public class Coupons {
 	
 	public static void filterCategories() {
 		//if he coupons categot is not in the preferedCategories list remove
+//		for (Coupon c : coupons) {
+//			for (String s : preferedCategories) {
+//				if(c.category.equals(s)){
+//					continue;
+//				}else {
+//					coupons.remove(c);
+//				}	
+//			}		
+//		}		
+		
 		for (Coupon c : coupons) {
-			for (String s : preferedCategories) {
-				if(c.category.equals(s)){
-					
-				}else {
-					coupons.remove(c);
-				}
+			if (!preferedCategories.contains(c.category)) {
+				coupons.remove(c);
 				
-			}
-				
+
 		}
-			
 	}
 	
+	}
+	
+	
 	public static void dipalycoupon() {
-		for (Coupon c : coupons) {
-			System.out.println("categty" + c.category);
-		}
+		
+		System.out.println(coupons.get(0).category);
+//		for (Coupon c : coupons) {
+//			System.out.println("categty" + "  "+c.category);
+//		}
+//		Coupon[] cou = (Coupon[]) coupons.toArray();
+//		System.out.println(cou[0].category);
 		
 	}
 		
 
-	
 	public static void main(String[] args) {
 		createDummyData();
 		filterCategories();
+		dipalycoupon();
 		
 		
 	}
+	
+	
 	public static void createDummyData() {
 		preferedCategories = new ArrayList<>();
 		preferedCategories.add("baby");
@@ -54,11 +68,12 @@ public class Coupons {
 		
 		
 		
-		coupons = new ArrayList<Coupon>();
+		coupons = new LinkedList<Coupon>();
 		coupons.add(c1);
 		coupons.add(c2);
-		
-		
 	}
+	
+	
+	
 
 }

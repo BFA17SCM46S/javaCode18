@@ -16,7 +16,7 @@ public class Coupon {
 	}
 	
 	public Coupon(String string){
-		String[] arry = string.split("  ");
+		String[] arry = string.split(",");
 		this.upc = arry[0];
 		this.code = arry[1];
 		this.category = arry[2];

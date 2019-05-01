@@ -1,6 +1,5 @@
 package Demo2;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
 
 import Demo1.practice91;
 
@@ -82,11 +81,7 @@ public class classpractice {
 //}
 	
 	
-	public static String reversNumber(String string) {
-		
-		
-		
-	}
+	
 
 	
 	
