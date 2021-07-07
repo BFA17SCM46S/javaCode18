@@ -4,8 +4,8 @@ public class sortingAlgr {
 
 
 	void Sorting(int arr[]){ 
-		int n = arr.length; 
-		for (int i = 0; i < n-1; i++) 
+		\\int n = arr.length;       \\I think you this variable is not needed
+		for (int i = 0; i < arr.length-1; i++) 
 			for (int j = 0; j < n-i-1; j++) 
 				if (arr[j] > arr[j+1]) { 
 
